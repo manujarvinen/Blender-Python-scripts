@@ -1,3 +1,5 @@
+# Note that all of the selected objects need to have at least one transform keyframe in them so that they have an action that can be assigned to the actuator logic brick, otherwise you have an error by running this.
+
 import bpy
 
 selected = bpy.context.selected_objects
