@@ -1,7 +1,7 @@
 # Blender Python scripts
 Various Blender Python scripts
 
-# 01 Sine Wave, modified to work in BGE
+## 01 Sine Wave, modified to work in BGE
 
 Credits:
 
@@ -11,7 +11,7 @@ Credits:
 
 ![Imgur](https://i.imgur.com/oOCv4Kd.png)
 
-# 02 Rotating Sphere, color animations modified to work in BGE
+## 02 Rotating Sphere, color animations modified to work in BGE
 
 (Or actually after running the script you need to select all the cubes and use the 'Assign Logic Bricks to selected objects' to make it work in BGE)
 
