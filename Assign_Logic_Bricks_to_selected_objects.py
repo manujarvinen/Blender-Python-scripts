@@ -3,7 +3,7 @@
 
 import bpy
 
-frame_to_be_played = 9999
+frames_to_be_played = 9999
 
 ops=bpy.ops
 context=bpy.context
@@ -55,7 +55,7 @@ for obj in selected:
 
             # Set frame end to scene end.
             #actuator.frame_end = scene.frame_end
-            actuator.frame_end = frame_to_be_played
+            actuator.frame_end = frames_to_be_played
 
             # Link logic together.
             sensor.link(controller)
