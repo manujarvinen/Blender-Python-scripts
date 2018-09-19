@@ -54,4 +54,5 @@ for obj in bpy.context.selected_objects:
     bpy.ops.object.transform_apply(scale=True)
     bpy.data.objects['NormalAxisObject.001'].name = PolygonName
     bpy.ops.object.group_link(group=GroupName)
-    bpy.ops.object.select_same_group(group=GroupName)
+
+bpy.ops.object.select_same_group(group=GroupName)
